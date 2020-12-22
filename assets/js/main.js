@@ -153,7 +153,7 @@
   });
 
   // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
+  /*$(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
     loop: true,
@@ -168,7 +168,7 @@
         items: 3
       }
     }
-  });
+  });*/
 
   // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
