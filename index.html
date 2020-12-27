@@ -105,7 +105,6 @@
             As a software tester, I have realized the importance of user experience and that the process of creating good software must start early. 
             I have always wanted to deliver a product with high quality, but to make the customer happy, not only testing is needed but also a 
             thorough UX design to understand the user's needs.</p>
-            <p><a href="assets/img/CV - Johanna Erlandsson.pdf" target="_blank">CV Johanna Erlandsson</a></p>
         </div>
 
         <div class="row">
@@ -168,6 +167,7 @@
             </div>
           </div>
         </div>
+        <a href="assets/img/CV - Johanna Erlandsson.pdf" target="_blank"> CV </a>
       </div>
     </section><!-- End Resume Section -->
 
@@ -280,7 +280,45 @@
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
             <form action="https://formspree.io/f/meqppakl" method="post" role="form" class="email-form">
-              <div class="form-row">
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" class="form-control" required>
+                    <!--input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validate"></div-->
+                  </div>
+  
+                  <div class="form-group col-md-6">
+                    <label for="name">Your Email</label>
+                     <input type="email" id="email" name="email" class="form-control" required>
+                    <!--input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validate"></div-->
+                  </div>
+                </div>
+  
+                <div class="form-group">
+                  <label for="name">Subject</label>
+                  <input type="text" id="subject" name="subject" class="form-control" required>
+                  <!--input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                  <div class="validate"></div-->
+                </div>
+  
+                <div class="form-group">
+                  <label for="name">Message</label>
+                  <textarea class="form-control" id="messge" name="message" rows="10" required></textarea>
+                  <!--textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="Please write something for me"></textarea>
+                  <div class="validate"></div-->
+                </div>
+  
+                <div class="mb-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+  
+                <div class="text-center"><button type="submit">Send</button></div>
+              </form>
+              <!--div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="name">Your Name</label>
                   <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -307,7 +345,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send</button></div>
+              <div class="text-center"><button type="submit">Send</button></div-->
             </form>
           </div>
 
@@ -340,7 +378,7 @@
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/email-form/validate.js"></script>
+  <!--script src="assets/vendor/email-form/validate.js"></script-->
   <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
   <script src="assets/vendor/counterup/counterup.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
